@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar shadow-sm navbar-expand-xl navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/images/ideal-bank-blue-logo.svg" alt="">
+        </a>
+        <div class="navbar-vr">
+          <div class="vr"></div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end bg-white" id="navbarOffcanvas" tabindex="-1"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+              <img src="/assets/images/ideal-bank-blue-logo.svg" alt="">
+            </a>
+            <button type="button" class="btn-close btn-close-dark text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul class="navbar-nav me-auto gap-1 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Program</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Setting
+                  </a>
+                  <ul class="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Option1</a></li>
+                    <li><a class="dropdown-item" href="#">Option1</a></li>
+
+                    <li><a class="dropdown-item" href="#">Option1</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav gap-1">
+                <li class="nav-item"><a href="#"> <i class="bi bi-bell"></i>
+                  </a>
+                </li>
+                <div class="navbar-vr">
+                  <div class="vr"></div>
+                </div>
+                <li class="nav-item"><img src="./assets/images/IN.svg" alt="India-flag"> India </li>
+                <div class="h-circle"></div>
+                <li class="nav-item">English</li>
+                <div class="navbar-vr">
+                  <div class="vr"></div>
+                </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="profile-dropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    John Doe
+                  </a>
+                  <ul class="dropdown-menu shadow-lg" aria-labelledby="profile-dropdown">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                    <li><a class="dropdown-item" href="#">Notification</a></li>
+
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="bg-gry-sec1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 my-3b fs-5 d-flex align-items-center text-uppercase">
+          <i class="bi bi-arrow-left-short fw-bold fs-1 color-orange mr-n2"></i> <strong> All programs</strong>
+        </div>
+        <div class="col-lg-2 col-md-3 justify-content-xs-center">
+          <figure class="img-box">
+            <img src="./assets/images/TATA_logo.svg" class="img-thumbnail border-0 float-start" alt="Tata Logo">
+          </figure>
+        </div>
+        <div class="col-lg-10 col-md-9">
+          <p class="gap-2 d-flex  flex-xs-column mb-0"><span class="color-orange">Supply Chain Financing</span> <span
+              class="h-circle"></span> <span>Dealer Financing</span></p>
+          <h1 class="fw-bold mb-0">Tata Motors Dealer financing</h1>
+          <p class="gap-2 d-flex"><span>IDB/IN/001</span> <span class="h-circle"></span> <span>TM3275</span><span
+              class="h-circle"></span> <span>Tata Group, Tata Motors</span></p>
+          <hr />
+          <div class="d-flex gap-3 flex-lg-row flex-sm-column fs-09 flex-xs-column flex-xs-column">
+            <div class="flex-grow-1"><button type="button" class="btn darft-btn btn-outline-secondary">Draft</button>
+            </div>
+            <div>
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Version 1.00
+                  </a>
+                  <ul class="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Version 1.00</a></li>
+                    <li><a class="dropdown-item" href="#">Version 2.00</a></li>
+                    <li><a class="dropdown-item" href="#">Version 3.00</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div><button type="button" class="btn px-3 rounded-pill btn-outline-dark text-uppercase fw-bold">
+                <i class="bi bi-pencil"></i> Edit</button></div>
+            <div> <button type="button" class="btn btn-warning fw-bold text-uppercase rounded-pill"> <i
+                  class="bi bi-pencil"></i> Submit for approval</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section3" class="my-3 section3">
+    <div class="container">
+      <nav>
+        <div class="nav fw-bold nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-program-tab" data-bs-toggle="tab" data-bs-target="#nav-program"
+            type="button" role="tab" aria-controls="nav-program" aria-selected="true">Program Details</button>
+          <button class="nav-link" id="nav-template-tab" data-bs-toggle="tab" data-bs-target="#nav-template"
+            type="button" role="tab" aria-controls="nav-template" aria-selected="false">Lead templates</button>
+          <button class="nav-link" id="nav-Borrower-tab" data-bs-toggle="tab" data-bs-target="#nav-Borrower"
+            type="button" role="tab" aria-controls="nav-Borrower" aria-selected="false">Borrower</button>
+          <button class="nav-link" id="nav-Applicant-details-tab" data-bs-toggle="tab"
+            data-bs-target="#nav-Applicant-details" type="button" role="tab" aria-controls="nav-Applicant-details"
+            aria-selected="true">Applicant details</button>
+          <button class="nav-link" id="nav-Dealers-tab" data-bs-toggle="tab" data-bs-target="#nav-Dealers" type="button"
+            role="tab" aria-controls="nav-Dealers" aria-selected="false">Dealers</button>
+          <button class="nav-link" id="nav-Loan-Applications-tab" data-bs-toggle="tab"
+            data-bs-target="#nav-Loan-Applications" type="button" role="tab" aria-controls="nav-Loan-Applications"
+            aria-selected="false">Loan Applications</button>
+        </div>
+      </nav>
+      <div class="tab-content my-5" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-program" role="tabpanel" aria-labelledby="nav-program-tab">
+          <section class="tab1-content-sec-1 py-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col">
+                <div class="card shadow d-flex align-items-start h-100">
+                  <h1>Country</h1>
+                  <p><img src="./assets/images/IN.svg" alt="India-flag"> India (INR) </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100 card shadow d-flex align-items-start">
+                  <h1>Currencies</h1>
+                  <p>Indian Rupee (INR)</p>
+                  <p>US Dollar (USD)</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow d-flex align-items-start h-100">
+                  <h1>Languages <span class="text-muted"> (Borrower App)</span></h1>
+                  <p>English <small><span class="badge p-2 bg-secondary"> Default </span></small></p>
+                  <p>Hindi</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="tab1-content-sec-2 py-3">
+            <h4 class="fw-bold py-3">Third Party Integrations</h4>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="card shadow d-flex align-items-start h-100">
+                  <h1>Email</h1>
+                  <figure><img src="./assets/images/mailchimp_logo.svg" alt="mailchimp-email" /></figure>
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100 card shadow d-flex align-items-start">
+                  <h1>SMS</h1>
+                  <figure><img src="./assets/images/gupshup_logo.svg" alt="gupshup-sms" /></figure>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow d-flex align-items-start h-100">
+                  <h1>Chatbot</h1>
+                  <figure><img src="./assets/images/intercom_logo.svg" alt="chatboat-intercom" /></figure>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow d-flex align-items-start h-100">
+                  <h1>Marketing Automation</h1>
+                  <figure><img src="./assets/images/clevertap_logo.svg" alt="Marketing-Automation" /></figure>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="tab1-content-sec-3 py-3">
+            <h4 class="fw-bold py-3">UI customization</h4>
+            <div class="row">
+              <div class="col">
+                <div class="card rounded-3">
+                  <div class="card-body p-4">
+                    <h1 class="mb-4">Header Customization </h1>
+                    <div class="card border-0">
+                      <div class="card-header rounded-3 p-4">
+                        <div class="row row-cols-1 ">
+                          <div class="col">
+                            <h5 class="card-subtitle fs-6 text-uppercase mb-4 text-muted">Preview</h5>
+                          </div>
+                          <div class="col">
+                            <div class="bg-white d-flex justify-content-between p-3">
+                              <a href="#">
+                                <img src="/assets/images/ideal-bank-blue-logo.svg" alt="">
+                              </a>
+                              <a href="#" class="text-decoration-none text-dark">I'll do this later</a>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-4">
+                        <div class="col  border-end">
+                          <div class="h-100">
+                            <p class="fs-6 m-0 fw-bold">Logo</p>
+                            <p class="card-subtitle mb-2 text-muted">Select brand logo to use in the header</p>
+                            <div class="d-flex bd-highlight">
+                              <div class="bd-highlight">
+                                <img src="./assets/images/File-type-icon.svg" width="45" height="45"
+                                  alt="File-type-icon" class="rounded-circle p-1 bg-primary" />
+                              </div>
+                              <div class="px-2 bd-highlight">
+                                <div>
+                                  <p class="m-0 fw-bold">Logo-dark.png</p>
+                                  <p class="card-subtitle m-0 text-muted">789 KB | 100% uploaded</p>
+                                </div>
+                              </div>
+                              <div class="ms-auto align-self-center px-2 bd-highlight">
+                                <a href="#" class="text-danger"><i class="bi bi-trash3"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col  border-end">
+                          <div class="h-100">
+                            <p class="fs-6 m-0 fw-bold">Button colors</p>
+                            <p class="card-subtitle mb-2 text-muted">Select skin mono color</p>
+                            <button type="button" class="btn-outline"><i class="theme-btn-blue"></i></a></button>
+                          </div>
+                        </div>
+                        <div class="col border-end">
+                          <div class="h-100">
+                            <p class="fs-6 m-0 fw-bold">Button colors</p>
+                            <div class="row row-cols-2">
+                              <div class="col">
+                                <!-- <input class="form-check-input" name="secondary" type="Primary" value="" id="primary"> -->
+                                <div class="form-check-label card-subtitle mb-2 text-muted"  for="primary">
+                                  Primary
+                                </div>
+                              </div>
+                              <div class="col"><input class="form-check-input" name="secondary" type="checkbox" value="" id="secondary"
+                                  checked>
+                                <label class="form-check-label card-subtitle mb-2 text-muted" for="secondary">
+                                  Secondary
+                                </label>
+                              </div>
+                              <div class="col"><button type="button" class="btn-outline"><i
+                                    class="theme-btn-blue"></i></a></button></div>
+                              <div class="col"><button type="button" class="btn-outline"><i
+                                    class="theme-btn-secondary"></i></a></button></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="h-100">
+                            <p class="fs-6 m-0 fw-bold">Font</p>
+                            <p class="card-subtitle mb-2 text-muted">Select font to be used for app</p>
+                            <select class="form-select fs-09" name="select-font" aria-label="Select font">
+                              <option selected>Office sance</option>
+                              <option value="1">Poppins</option>
+                              <option value="2">sans-serif</option>
+                              <option value="3">Arial</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col">
+                <div class="card custom-footer rounded-3">
+                  <div class="card-body p-4">
+                    <h1 class="mb-4">Footer Customization </h1>
+                    <div class="card border-0">
+                      <div class="card-header rounded-3 p-4">
+                        <div class="row row-cols-1 ">
+                          <div class="col">
+                            <h5 class="card-subtitle fs-6 text-uppercase mb-4 text-muted">Preview</h5>
+                          </div>
+                          <div class="col">
+                            <div class="bg-dark text-white p-4">
+                              <a href="#">
+                                <img src="/assets/images/ideal-white-logo.svg" alt="ideal-white-logo">
+                              </a>
+                              <div class="row mt-3 row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 d-flex">
+                                <div class="col align-items-center">
+                                  <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column">
+                                    <ul class="d-block p-0 d-lg-flex d-sm-block">
+                                      <li>
+                                        <span> Contact Us</span>
+                                      </li>
+                                      <li>
+                                        <span>Privacy
+                                          Policy</span>
+                                      </li>
+                                      <li><span>Terms and
+                                          Conditions</span></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col align-items-center">
+                                  <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column">
+                                    <ul class="d-block p-0 d-lg-flex d-sm-block">
+                                      <li>
+                                        <span>©2024 Ideal Bank. All rights reserved </span>
+                                      </li>
+                                      <li>
+                                        <span>Powered by CredAble</span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 pt-4">
+                        <div class="col">
+                          <div class="h-100 border-end">
+                            <p class="fs-6 m-0 fw-bold">Logo</p>
+                            <p class="card-subtitle mb-2 text-muted">Select brand logo to use in the header</p>
+                            <div class="d-flex bd-highlight">
+                              <div class="bd-highlight">
+                                <img src="./assets/images/File-type-icon.svg" width="45" height="45"
+                                  alt="File-type-icon" class="rounded-circle p-1 bg-primary" />
+                              </div>
+                              <div class="px-2 bd-highlight">
+                                <div>
+                                  <p class="m-0 fw-bold">Logo-dark.png</p>
+                                  <p class="card-subtitle m-0 text-muted">789 KB | 100% uploaded</p>
+                                </div>
+                              </div>
+                              <div class="ms-auto align-self-center px-2 bd-highlight">
+                                <a href="#" class="text-danger"><i class="bi bi-trash3"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="h-100 border-end">
+                            <p class="fs-6 m-0 fw-bold">Footer color</p>
+                            <p class="card-subtitle mb-2 text-muted">Used for footer background</p>
+                            <button type="button" class="btn-outline"><i
+                                class="theme-btn-blue bg-dark"></i></a></button>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="h-100">
+                            <p class="fs-6 mb-4 fw-bold">Footer text</p>
+                            <input type="text" class="form-control fs-09" name="footer-text"
+                              value="©2024 Ideal Bank. All rights reserved  •  Powered by..." />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="logs">
+            <div class="container">
+              <h4 class="fw-bold mb-4">Program log</h4>
+              <div class="row row-cols-1">
+                <div class="col d-flex align-items-start">
+                  <div class="d-inline-flex align-items-center justify-content-center flex-shrink-0 me-3">
+                    <img src="./assets/images/aliah.png" class="rounded-circle" width="48" height="48" alt="user" />
+                  </div>
+                  <div>
+                    <h1 class="fs-6 text-body-emphasis"><b>Aliah Lane</b><span class="text-muted mx-3">2 mins ago</span>
+                    </h1>
+                    <p>Approved <b>Version 2.00</b></p>
+
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start mt-4">
+                  <div class="d-inline-flex align-items-center justify-content-center flex-shrink-0 me-3">
+                    <img src="./assets/images/john.png" class="rounded-circle" width="48" height="48" alt="user" />
+                  </div>
+                  <div>
+                    <h1 class="fs-6 text-body-emphasis"><b>John Doe (You)</b><span class="text-muted mx-3">Yesterday,
+                        2:48
+                        PM</span></h1>
+                    <p>Created and updated <b> new Version 2.00</b></p>
+                    <ul class="pl-1">
+                      <li>Changed Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt</li>
+                      <li> Removed ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      </li>
+                      <li> Added ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit
+                        in voluptate</li>
+                      <li> Changed velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start mt-4">
+                  <div class="d-inline-flex align-items-center justify-content-center flex-shrink-0 me-3">
+                    <img src="./assets/images/john.png" class="rounded-circle" width="48" height="48" alt="user" />
+                  </div>
+                  <div>
+                    <h1 class="fs-6 text-body-emphasis"><b>John Doe (You)</b><span class="text-muted mx-3">Mar 10, 2024
+                        8:04
+                        AM</span></h1>
+                    <p>Published <b> Version 1.00</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="tab-pane fade" id="nav-template" role="tabpanel" aria-labelledby="nav-template-tab">
+          Lead Template
+        </div>
+        <div class="tab-pane fade" id="nav-Borrower" role="tabpanel" aria-labelledby="nav-Borrower-tab">Borrower
+          details
+        </div>
+        <div class="tab-pane fade" id="nav-Applicant-details" role="tabpanel"
+          aria-labelledby="nav-Applicant-details-tab">
+          Applicant details</div>
+        <div class="tab-pane fade" id="nav-Dealers" role="tabpanel" aria-labelledby="nav-Dealers-tab">Dealers</div>
+        <div class="tab-pane fade" id="nav-Loan-Applications" role="tabpanel"
+          aria-labelledby="nav-Loan-Applications-tab">Loan
+          Applications</div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <hr />
+  <section>
+    <footer>
+      <div class="container">
+        <div class="justify-content-between d-flex flex-lg-row flex-md-row flex-sm-column flex-column">
+                <ul class="nav text-dark text-uppercase d-block p-0 d-lg-flex d-sm-block">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacy Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Terms and Conditions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Security</a>
+        </li>
+      </ul>
+    <div><small class="text-muted">©2024 CredAble. All rights reserved.</small></div>
+    </div>
+          </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
